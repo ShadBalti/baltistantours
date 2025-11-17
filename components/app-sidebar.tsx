@@ -54,7 +54,7 @@ const navigationGroups = [
   }
 ];
 
-export function AppSidebar() {
+export default function AppSidebar() {
   const pathname = usePathname();
 
   return (

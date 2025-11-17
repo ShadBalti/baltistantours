@@ -11,7 +11,7 @@ interface DocsLayoutProps {
   children: React.ReactNode;
 }
 
-export function DocsLayout({ children }: DocsLayoutProps) {
+export default function DocsLayout({ children }: DocsLayoutProps) {
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full">

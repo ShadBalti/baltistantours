@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 
-export function Breadcrumbs() {
+export default function Breadcrumbs() {
   const pathname = usePathname();
   
   // Generate breadcrumbs from pathname
