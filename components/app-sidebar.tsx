@@ -6,57 +6,56 @@ import Link from "next/link";
 import { usePathname } from 'next/navigation';
 
 const navigationGroups = [
-  {
-    label: "Getting Started",
-    items: [
-      { label: "Home", href: "/", icon: Home },
-      { label: "Getting There", href: "/getting-there", icon: MapPin },
-    ]
-  },
-  {
-    label: "Explore",
-    items: [
-      { label: "Destinations", href: "/destinations", icon: Mountain },
-      { label: "Destinations - Skardu", href: "/destinations/skardu", icon: Mountain },
-      { label: "Destinations - Shigar", href: "/destinations/shigar", icon: Mountain },
-      { label: "Destinations - Khaplu", href: "/destinations/khaplu", icon: Mountain },
-      { label: "Destinations - Kharmang", href: "/destinations/kharmang", icon: Mountain },
-      { label: "Destinations - Rondu", href: "/destinations/rondu", icon: Mountain },
-    ]
-  },
-  {
-    label: "Experiences",
-    items: [
-      { label: "Accommodation", href: "/accommodation", icon: Hotel },
-      { label: "Food", href: "/food", icon: Utensils },
-      { label: "Adventure", href: "/adventure", icon: Zap },
-      { label: "Culture", href: "/culture", icon: Users },
-      { label: "Experiences", href: "/experiences", icon: Compass },
-      { label: "Festivals", href: "/festivals", icon: Lightbulb },
-    ]
-  },
-  {
-    label: "Travel Info",
-    items: [
-      { label: "Travel Essentials", href: "/travel-essentials", icon: BookOpen },
-      { label: "Language", href: "/language", icon: Globe },
-      { label: "Tips & Tricks", href: "/tips", icon: Lightbulb },
-      { label: "Blog", href: "/blogs", icon: BookOpen },
-    ]
-  },
-  {
-    label: "About",
-    items: [
-      { label: "About Us", href: "/about", icon: Info },
-      { label: "Privacy Policy", href: "/privacy", icon: BookOpen },
-      { label: "Contact", href: "/contact", icon: Mail },
-    ]
-  }
-];
+{
+  label: "Getting Started",
+  items: [
+    { label: "Home", href: "/", icon: Home },
+    { label: "Getting There", href: "/getting-there", icon: MapPin },
+  ]
+},
+{
+  label: "Explore",
+  items: [
+    { label: "Destinations", href: "/destinations", icon: Mountain },
+    { label: "Destinations - Skardu", href: "/destinations/skardu", icon: Mountain },
+    { label: "Destinations - Shigar", href: "/destinations/shigar", icon: Mountain },
+    { label: "Destinations - Khaplu", href: "/destinations/khaplu", icon: Mountain },
+    { label: "Destinations - Kharmang", href: "/destinations/kharmang", icon: Mountain },
+    { label: "Destinations - Rondu", href: "/destinations/rondu", icon: Mountain },
+  ]
+},
+{
+  label: "Experiences",
+  items: [
+    { label: "Accommodation", href: "/accommodation", icon: Hotel },
+    { label: "Food", href: "/food", icon: Utensils },
+    { label: "Adventure", href: "/adventure", icon: Zap },
+    { label: "Culture", href: "/culture", icon: Users },
+    { label: "Experiences", href: "/experiences", icon: Compass },
+    { label: "Festivals", href: "/festivals", icon: Lightbulb },
+  ]
+},
+{
+  label: "Travel Info",
+  items: [
+    { label: "Travel Essentials", href: "/travel-essentials", icon: BookOpen },
+    { label: "Language", href: "/language", icon: Globe },
+    { label: "Tips & Tricks", href: "/tips", icon: Lightbulb },
+    { label: "Blog", href: "/blogs", icon: BookOpen },
+  ]
+},
+{
+  label: "About",
+  items: [
+    { label: "About Us", href: "/about", icon: Info },
+    { label: "Privacy Policy", href: "/privacy", icon: BookOpen },
+    { label: "Contact", href: "/contact", icon: Mail },
+  ]
+}];
 
 export default function AppSidebar() {
   const pathname = usePathname();
-
+  
   return (
     <Sidebar>
       <SidebarContent>

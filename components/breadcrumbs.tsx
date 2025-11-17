@@ -18,9 +18,9 @@ export default function Breadcrumbs() {
         .join(' '),
       href: '/' + arr.slice(0, index + 1).join('/')
     }));
-
+  
   if (segments.length === 0) return null;
-
+  
   return (
     <nav className="flex items-center gap-2 mb-8 text-sm text-muted-foreground" aria-label="breadcrumb">
       <Link href="/" className="hover:text-foreground transition-colors">

@@ -1,10 +1,10 @@
 'use client'
 
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import  AppSidebar  from "@/components/app-sidebar";
-import  Breadcrumbs  from "@/components/breadcrumbs";
-import  Footer  from "@/components/footer";
-import  TravelAssistant  from "@/components/travel-assistant";
+import AppSidebar from "@/components/app-sidebar";
+import Breadcrumbs from "@/components/breadcrumbs";
+import Footer from "@/components/footer";
+import TravelAssistant from "@/components/travel-assistant";
 import { Mountain } from 'lucide-react';
 
 interface DocsLayoutProps {

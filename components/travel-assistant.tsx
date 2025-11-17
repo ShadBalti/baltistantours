@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 export default function TravelAssistant() {
   const [isOpen, setIsOpen] = useState(false);
-
+  
   return (
     <div className="fixed bottom-6 right-6 z-50">
       {isOpen && (
