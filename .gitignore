@@ -1,0 +1,40 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+*.pem
+*.env
+*.env.local
+*.env.*.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.vercel
+
+# Old Vite/React Router files (migrated to Next.js)
+/src
+vite.config.ts
+index.html
