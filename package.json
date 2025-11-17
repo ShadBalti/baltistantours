@@ -62,7 +62,7 @@
     "typescript-eslint": "latest",
     "vaul": "latest",
     "zod": "^3.25.76"
-  },lucide-reactlucide-react
+  },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@tailwindcss/typography": "^0.5.16",
